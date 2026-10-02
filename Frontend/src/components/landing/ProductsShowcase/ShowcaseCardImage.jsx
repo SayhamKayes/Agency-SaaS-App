@@ -4,7 +4,7 @@ import { Layers, Globe, Smartphone, Sparkles, Activity, Shield, ArrowUpRight } f
 export const ShowcaseCardImage = ({
   src,
   alt,
-  accentColor = '#10B981',
+  accentColor = '#CF500A',
   category = '',
   title = '',
   className = ''
@@ -77,7 +77,7 @@ export const ShowcaseCardImage = ({
               <div className="text-[10px] text-neutral-400 font-mono flex items-center justify-center gap-1">
                 <span>Production Build</span>
                 <span>·</span>
-                <span className="text-emerald-400">99.9%</span>
+                <span style={{ color: accentColor }}>99.9%</span>
               </div>
             </div>
           </div>
