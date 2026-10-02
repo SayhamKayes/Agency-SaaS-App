@@ -1,0 +1,7 @@
+{
+  "name": "SKz LAB — SaaS Foundry & Venture Studio",
+  "description": "SKz LAB is a premier SaaS product foundry and venture studio building next-generation cloud architectures, AI systems, and enterprise software.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
