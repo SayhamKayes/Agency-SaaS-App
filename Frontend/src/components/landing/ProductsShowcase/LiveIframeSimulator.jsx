@@ -63,16 +63,16 @@ export const LiveIframeSimulator = ({ url, title, viewportMode = 'desktop' }) =>
         {/* Floating Resolution Pill */}
         <div className="absolute bottom-3 right-4 z-20 flex items-center gap-1.5 select-none">
           <div className="px-2.5 py-1 rounded-lg bg-neutral-900/90 border border-neutral-700/80 text-[10px] font-mono text-neutral-300 shadow-xl backdrop-blur-md flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#CF500A] animate-pulse" />
             <button
               onClick={() => setDesktopWidth(desktopWidth === 1920 ? 1440 : 1920)}
               title="Click to toggle between 1920px (Full HD) and 1440px (Desktop)"
-              className="text-white hover:text-emerald-400 font-semibold cursor-pointer transition-colors"
+              className="text-white hover:text-[#CF500A] font-semibold cursor-pointer transition-colors"
             >
               {desktopWidth} × 1080 (Desktop {desktopWidth === 1920 ? 'Full HD' : 'MacBook'})
             </button>
             <span className="text-neutral-500">·</span>
-            <span className="text-emerald-400 font-semibold">{Math.round(scale * 100)}% Scale</span>
+            <span className="text-[#CF500A] font-semibold">{Math.round(scale * 100)}% Scale</span>
           </div>
 
           <button
@@ -193,7 +193,7 @@ export const LiveIframeSimulator = ({ url, title, viewportMode = 'desktop' }) =>
       >
         {/* Dynamic Island Pill */}
         <div className="w-20 h-4 bg-neutral-900 rounded-full mx-auto flex items-center justify-between px-2 border border-neutral-800/80 z-20 mt-0.5">
-          <span className="w-1 h-1 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="w-1 h-1 rounded-full bg-[#CF500A] animate-pulse" />
           <span className="w-1.5 h-1.5 rounded-full bg-neutral-700" />
         </div>
 
