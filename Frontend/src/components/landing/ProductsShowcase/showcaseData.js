@@ -5,7 +5,7 @@ export const SERVICES_LIST = [
     badge: '3 Products Live',
     tagline: 'High-throughput enterprise multi-tenant cloud platforms',
     icon: 'Layers',
-    accentColor: '#10B981', // Emerald highlight
+    accentColor: '#CF500A',
     description: 'Engineered for extreme modularity, automated billing pipelines, and zero-downtime microservices.'
   },
   {
@@ -14,7 +14,7 @@ export const SERVICES_LIST = [
     badge: 'Production Grade',
     tagline: 'Ultra-fast headless web architectures',
     icon: 'Globe',
-    accentColor: '#10B981', // Emerald highlight
+    accentColor: '#CF500A',
     description: 'Bespoke web applications, high-converting digital flagships, and dynamic WebGL experiences.'
   },
   {
@@ -23,7 +23,7 @@ export const SERVICES_LIST = [
     badge: 'Android',
     tagline: 'Native performance cross-platform mobile apps',
     icon: 'Smartphone',
-    accentColor: '#10B981', // Emerald highlight
+    accentColor: '#CF500A',
     description: 'Sub-60fps fluid touch animations, background geolocation, offline sync, and biometric security.'
   }
 ];
@@ -40,7 +40,7 @@ export const SAAS_PRODUCTS = [
     mrr: '$48,200',
     activeUsers: '142,000+',
     uptime: '99.99%',
-    accentColor: '#F05A28',
+    accentColor: '#CF500A',
     image: '/assets/showcase/saas-gaming.jpg',
     liveUrl: 'https://skzlootlab.vercel.app/',
     urls: {
@@ -67,7 +67,7 @@ export const SAAS_PRODUCTS = [
     mrr: '$36,800',
     activeUsers: '89,400+',
     uptime: '99.98%',
-    accentColor: '#00A8C6',
+    accentColor: '#CF500A',
     image: '/assets/showcase/saas-courierpulse.png',
     liveUrl: 'https://amrdokan.vercel.app/',
     urls: {
@@ -94,7 +94,7 @@ export const SAAS_PRODUCTS = [
     mrr: '$29,400',
     activeUsers: '45,000+',
     uptime: '99.95%',
-    accentColor: '#F59E0B',
+    accentColor: '#CF500A',
     image: '/assets/showcase/saas-signcrafter.jpg',
     liveUrl: 'https://signaturecrafter.vercel.app/',
     urls: {
@@ -123,7 +123,7 @@ export const WEB_PROJECTS = [
     url: 'http://fusion-retreat.com/',
     liveUrl: 'http://fusion-retreat.com/',
     image: '/assets/showcase/web-fusion.webp',
-    accentColor: '#10B981',
+    accentColor: '#CF500A',
     tagline: 'Luxury Wellness & Serene Retreat Sanctuary Experience',
     description: 'Bespoke hospitality and wellness retreat digital platform with dynamic accommodation booking, immersive retreat itineraries, wellness programs, and fluid responsive design.',
     techStack: ['Next.js 15', 'TypeScript', 'Tailwind CSS', 'Chart.js'],
@@ -144,7 +144,7 @@ export const WEB_PROJECTS = [
     url: 'https://goodtimewatch.vercel.app/',
     liveUrl: 'https://goodtimewatch.vercel.app/',
     image: '/assets/showcase/web-goodtimewatch.jpg',
-    accentColor: '#8B5CF6',
+    accentColor: '#CF500A',
     tagline: 'High-End Horology & Luxury Timepiece Digital Storefront',
     description: 'Ultra-responsive luxury watch digital showroom with high-definition product galleries, micro-interactions, dynamic cart drawer, and seamless checkout pipelines.',
     techStack: ['React 19', 'Three.js', 'Framer Motion', 'Tailwind CSS'],
@@ -165,7 +165,7 @@ export const WEB_PROJECTS = [
     url: 'https://sayhamkayes.vercel.app/',
     liveUrl: 'https://sayhamkayes.vercel.app/',
     image: '/assets/showcase/web-portfolio.jpg',
-    accentColor: '#06B6D4',
+    accentColor: '#CF500A',
     tagline: 'Cybernetic High-Tech Digital Portfolio & Engineering Showcase',
     description: 'Modern developer portfolio featuring cybernetic HUD design, terminal interface, interactive glassmorphism components, and live production architecture previews.',
     techStack: ['React 19', 'Tailwind CSS', 'Lucide React', 'Framer Motion'],
@@ -188,7 +188,7 @@ export const MOBILE_APPS = [
     url: 'skz://courierpulse.go/active-dispatch',
     liveUrl: '', // Optional: paste live URL here to embed inside phone screen
     image: '/assets/showcase/mobile-courier-go.png',
-    accentColor: '#00A8C6',
+    accentColor: '#CF500A',
     tagline: 'Real-time turn-by-turn routing with instant earnings for logistics riders',
     techStack: ['React Native', 'TypeScript', 'MapBox', 'Go'],
     screens: [
@@ -207,7 +207,7 @@ export const MOBILE_APPS = [
     url: 'skz://wallet.pay/nfc-card',
     liveUrl: '', // Optional: paste live URL here to embed inside phone screen
     image: '/assets/showcase/mobile-skz-pay.png',
-    accentColor: '#F05A28',
+    accentColor: '#CF500A',
     tagline: 'Biometric contactless payments, crypto-fiat bridge, and instant splits',
     techStack: ['Flutter', 'Rust Core', 'Secure Enclave', 'NFC'],
     screens: [
@@ -226,7 +226,7 @@ export const MOBILE_APPS = [
     url: 'skz://fitflow.ai/daily-routine',
     liveUrl: '', // Optional: paste live URL here to embed inside phone screen
     image: '/assets/showcase/mobile-fitflow.png',
-    accentColor: '#10B981',
+    accentColor: '#CF500A',
     tagline: 'Personalized generative AI workout trainer with wearable sensor telemetry',
     techStack: ['Swift', 'Kotlin', 'CoreML', 'HealthKit'],
     screens: [
@@ -247,7 +247,7 @@ export const FEATURED_PROJECTS = [
     tagline: p.tagline,
     description: p.description,
     techStack: p.techStack || [],
-    accentColor: p.accentColor || '#10B981',
+    accentColor: p.accentColor || '#CF500A',
     image: p.image || '',
     liveUrl: p.liveUrl || p.url || (p.urls && p.urls.landing) || '',
     githubUrl: p.githubUrl || `https://github.com/sayham/${p.id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
@@ -261,7 +261,7 @@ export const FEATURED_PROJECTS = [
     tagline: p.tagline,
     description: p.description,
     techStack: p.techStack || [],
-    accentColor: p.accentColor || '#06B6D4',
+    accentColor: p.accentColor || '#CF500A',
     image: p.image || '',
     liveUrl: p.liveUrl || p.url || '',
     githubUrl: p.githubUrl || `https://github.com/sayham/${p.id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
@@ -275,7 +275,7 @@ export const FEATURED_PROJECTS = [
     tagline: p.tagline,
     description: p.description,
     techStack: p.techStack || [],
-    accentColor: p.accentColor || '#00A8C6',
+    accentColor: p.accentColor || '#CF500A',
     image: p.image || '',
     liveUrl: p.liveUrl || p.url || '',
     githubUrl: p.githubUrl || `https://github.com/sayham/${p.id.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
