@@ -5,7 +5,7 @@ export const SkeletonLoader = ({ type = 'saas' }) => {
     <div className="w-full min-h-[440px] p-6 space-y-6 animate-pulse select-none relative overflow-hidden bg-neutral-950/60 rounded-xl">
       {/* Top simulated browser progress bar */}
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-neutral-800 overflow-hidden">
-        <div className="h-full bg-gradient-to-r from-emerald-500 via-cyan-400 to-emerald-400 w-full animate-[progress_1s_ease-in-out_infinite]" />
+        <div className="h-full bg-gradient-to-r from-[#CF500A] via-amber-400 to-[#CF500A] w-full animate-[progress_1s_ease-in-out_infinite]" />
       </div>
 
       {/* Header bar wireframe */}
@@ -58,7 +58,7 @@ export const SkeletonLoader = ({ type = 'saas' }) => {
       {/* Pulsing glow indicator */}
       <div className="flex items-center justify-center pt-2">
         <span className="flex items-center gap-2 text-[11px] font-mono text-neutral-400">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping inline-block" />
+          <span className="w-2 h-2 rounded-full bg-[#CF500A] animate-ping inline-block" />
           <span>Synchronizing production node environment...</span>
         </span>
       </div>
