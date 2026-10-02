@@ -58,10 +58,10 @@ export const IPhoneMockup = ({ activeApp }) => {
 
             {/* Compact Dynamic Island */}
             <div className="h-4.5 w-18 bg-black rounded-full border border-neutral-800 flex items-center justify-between px-2 shadow-sm">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[#CF500A] animate-pulse" />
               <div className="flex items-center gap-0.5">
                 <span className="w-0.5 h-1.5 bg-neutral-500 rounded-full animate-bounce" />
-                <span className="w-0.5 h-2 bg-emerald-400 rounded-full" />
+                <span className="w-0.5 h-2 bg-[#CF500A] rounded-full" />
                 <span className="w-0.5 h-1 bg-neutral-500 rounded-full" />
               </div>
               <div className="w-1.5 h-1.5 rounded-full bg-neutral-700" />
@@ -133,8 +133,8 @@ export const IPhoneMockup = ({ activeApp }) => {
                               <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
                             </div>
                             <div className="flex flex-col items-center">
-                              <div className="w-5 h-5 rounded-full bg-emerald-500/20 border border-emerald-400 flex items-center justify-center">
-                                <CheckCircle2 className="w-2.5 h-2.5 text-emerald-400" />
+                              <div className="w-5 h-5 rounded-full bg-[#CF500A]/20 border border-[#CF500A] flex items-center justify-center">
+                                <CheckCircle2 className="w-2.5 h-2.5 text-[#CF500A]" />
                               </div>
                               <span className="text-[8px] text-neutral-400">Target</span>
                             </div>
@@ -146,7 +146,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                               <div className="text-[9px] font-bold text-white">Order #CP-9812</div>
                               <div className="text-[8px] text-neutral-400">Banani 11, Suite 7A</div>
                             </div>
-                            <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
+                            <div className="w-5 h-5 rounded-full bg-[#CF500A]/20 text-[#CF500A] flex items-center justify-center">
                               <PhoneCall className="w-2.5 h-2.5" />
                             </div>
                           </div>
@@ -155,10 +155,10 @@ export const IPhoneMockup = ({ activeApp }) => {
                         {/* Rider Action Card */}
                         <div className="p-2 rounded-xl bg-neutral-900/90 border border-neutral-800 flex items-center justify-between">
                           <span className="text-[10px] text-neutral-400">Payout</span>
-                          <span className="text-xs font-bold text-emerald-400">+$12.50</span>
+                          <span className="text-xs font-bold text-[#CF500A]">+$12.50</span>
                         </div>
 
-                        <div className="w-full py-1.5 rounded-lg bg-gradient-to-r from-cyan-600 to-emerald-600 text-white font-semibold text-[10px] text-center flex items-center justify-center gap-1.5 cursor-pointer shadow-md">
+                        <div className="w-full py-1.5 rounded-lg bg-gradient-to-r from-[#CF500A] to-[#e0651d] text-white font-semibold text-[10px] text-center flex items-center justify-center gap-1.5 cursor-pointer shadow-md">
                           <span>Swipe to Deliver</span>
                           <ArrowUpRight className="w-3 h-3" />
                         </div>
@@ -170,7 +170,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                         <div className="p-2.5 rounded-xl bg-gradient-to-br from-neutral-900 to-neutral-950 border border-neutral-800 text-center">
                           <div className="text-[8px] text-neutral-400 uppercase font-mono">Today's Payout</div>
                           <div className="text-xl font-extrabold text-white mt-0.5">$142.50</div>
-                          <div className="mt-1 inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[8px] font-mono">
+                          <div className="mt-1 inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-[#CF500A]/10 text-[#CF500A] text-[8px] font-mono">
                             <TrendingUp className="w-2.5 h-2.5" />
                             <span>+$38.00 vs Yesterday</span>
                           </div>
@@ -186,7 +186,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                                 <div className="font-semibold text-white">{item.id}</div>
                                 <div className="text-[8px] text-neutral-400">{item.time} · Delivered</div>
                               </div>
-                              <span className="font-mono text-emerald-400 font-bold">{item.amount}</span>
+                              <span className="font-mono text-[#CF500A] font-bold">{item.amount}</span>
                             </div>
                           ))}
                         </div>
@@ -201,7 +201,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                           </div>
                           <div>
                             <div className="text-xs font-bold text-white">Rafiul Karim</div>
-                            <div className="text-[9px] text-emerald-400 flex items-center gap-1 font-mono">
+                            <div className="text-[9px] text-[#CF500A] flex items-center gap-1 font-mono">
                               <CheckCircle2 className="w-2.5 h-2.5" />
                               <span>Elite Fleet Rider</span>
                             </div>
@@ -260,7 +260,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                             <span className="text-[8px] text-neutral-300">Send</span>
                           </div>
                           <div className="p-1.5 rounded-lg bg-neutral-900 border border-neutral-800 hover:border-orange-500/50 cursor-pointer">
-                            <ShieldCheck className="w-3.5 h-3.5 mx-auto text-emerald-400 mb-0.5" />
+                            <ShieldCheck className="w-3.5 h-3.5 mx-auto text-[#CF500A] mb-0.5" />
                             <span className="text-[8px] text-neutral-300">Freeze</span>
                           </div>
                         </div>
@@ -277,7 +277,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                         ].map((tx, idx) => (
                           <div key={idx} className="p-1.5 rounded-lg bg-neutral-900/80 border border-neutral-800 flex items-center justify-between text-[10px]">
                             <span className="font-semibold text-white">{tx.title}</span>
-                            <span className={`font-mono font-bold ${tx.positive ? 'text-emerald-400' : 'text-neutral-200'}`}>
+                            <span className={`font-mono font-bold ${tx.positive ? 'text-[#CF500A]' : 'text-neutral-200'}`}>
                               {tx.amount}
                             </span>
                           </div>
@@ -290,7 +290,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                         <div className="p-2 rounded-xl bg-neutral-900 border border-neutral-800 space-y-1">
                           <div className="flex items-center justify-between text-[10px]">
                             <span className="font-medium text-white">Face ID Authentication</span>
-                            <span className="text-emerald-400 text-[8px] font-mono">ACTIVE</span>
+                            <span className="text-[#CF500A] text-[8px] font-mono">ACTIVE</span>
                           </div>
                           <p className="text-[8px] text-neutral-400">Zero-knowledge biometric enclave locks every transaction.</p>
                         </div>
@@ -312,9 +312,9 @@ export const IPhoneMockup = ({ activeApp }) => {
                   <>
                     {activeScreenTab === 'workout' && (
                       <div className="space-y-2">
-                        <div className="p-2.5 rounded-xl bg-gradient-to-br from-neutral-900 to-emerald-950/40 border border-emerald-500/20 flex items-center justify-between">
+                        <div className="p-2.5 rounded-xl bg-gradient-to-br from-neutral-900 to-[#CF500A]/20 border border-[#CF500A]/30 flex items-center justify-between">
                           <div>
-                            <div className="text-[8px] font-mono uppercase text-emerald-400 flex items-center gap-1">
+                            <div className="text-[8px] font-mono uppercase text-[#CF500A] flex items-center gap-1">
                               <Activity className="w-2.5 h-2.5 animate-pulse text-red-500" />
                               <span>HEART RATE</span>
                             </div>
@@ -325,7 +325,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                             <div className="text-[8px] text-neutral-400">Zone 3 Aerobic</div>
                           </div>
 
-                          <div className="w-12 h-12 rounded-full border-2 border-emerald-500/30 border-t-emerald-400 flex items-center justify-center p-0.5">
+                          <div className="w-12 h-12 rounded-full border-2 border-[#CF500A]/30 border-t-[#CF500A] flex items-center justify-center p-0.5">
                             <Flame className="w-3.5 h-3.5 text-orange-400" />
                           </div>
                         </div>
@@ -336,11 +336,11 @@ export const IPhoneMockup = ({ activeApp }) => {
                             <span className="text-[8px] font-mono text-cyan-400">8 @ 120KG</span>
                           </div>
                           <div className="w-full bg-neutral-800 rounded-full h-1 overflow-hidden">
-                            <div className="bg-emerald-400 h-full w-3/4 rounded-full" />
+                            <div className="bg-[#CF500A] h-full w-3/4 rounded-full" />
                           </div>
                           <div className="flex items-center justify-between text-[8px] text-neutral-400">
                             <span>Rest: 00:42</span>
-                            <span className="text-emerald-400">Form: 98%</span>
+                            <span className="text-[#CF500A]">Form: 98%</span>
                           </div>
                         </div>
                       </div>
@@ -349,7 +349,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                     {activeScreenTab === 'plan' && (
                       <div className="space-y-1.5">
                         <div className="p-2 rounded-lg bg-neutral-900 border border-neutral-800 flex items-start gap-1.5">
-                          <Sparkles className="w-3 h-3 text-emerald-400 shrink-0 mt-0.5" />
+                          <Sparkles className="w-3 h-3 text-[#CF500A] shrink-0 mt-0.5" />
                           <div className="text-[10px]">
                             <div className="font-semibold text-white">Hypertrophy Day 4</div>
                             <p className="text-[8px] text-neutral-400">Optimized from 92% sleep recovery score.</p>
@@ -359,7 +359,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                         {['Romanian Deadlifts', 'Incline Dumbbell Press', 'Weighted Pull-ups'].map((ex, i) => (
                           <div key={i} className="p-1.5 rounded-lg bg-neutral-900/70 border border-neutral-800 flex items-center justify-between text-[9px]">
                             <span className="text-white">{ex}</span>
-                            <span className="text-[8px] font-mono text-emerald-400">READY</span>
+                            <span className="text-[8px] font-mono text-[#CF500A]">READY</span>
                           </div>
                         ))}
                       </div>
@@ -377,7 +377,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                         </div>
                         <div className="p-2 rounded-lg bg-neutral-900 border border-neutral-800">
                           <div className="text-[8px] text-neutral-400">Recovery</div>
-                          <div className="font-bold text-emerald-400 mt-0.5">94%</div>
+                          <div className="font-bold text-[#CF500A] mt-0.5">94%</div>
                         </div>
                         <div className="p-2 rounded-lg bg-neutral-900 border border-neutral-800">
                           <div className="text-[8px] text-neutral-400">Streak</div>
@@ -391,7 +391,7 @@ export const IPhoneMockup = ({ activeApp }) => {
                 {/* Safety Fallback: if somehow no screen matches, display a clean fallback rather than blank space */}
                 {!['app-courier-go', 'app-skz-pay', 'app-fitflow'].includes(activeApp?.id) && (
                   <div className="h-full flex flex-col items-center justify-center text-center p-4 space-y-2">
-                    <div className="w-10 h-10 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+                    <div className="w-10 h-10 rounded-2xl bg-[#CF500A]/10 border border-[#CF500A]/20 text-[#CF500A] flex items-center justify-center mx-auto">
                       <Sparkles className="w-5 h-5" />
                     </div>
                     <div className="text-xs font-bold text-white">{activeApp?.name || 'Mobile Application'}</div>
