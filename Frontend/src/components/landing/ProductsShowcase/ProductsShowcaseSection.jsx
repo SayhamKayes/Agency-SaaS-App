@@ -200,7 +200,7 @@ export const ProductsShowcaseSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="mb-12">
-          <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-[0.2em] text-emerald-400 mb-2">
+          <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-[0.2em] text-[#CF500A] mb-2">
             <span>03</span>
             <span>·</span>
             <span>ENTERPRISE SERVICE SUITE</span>
@@ -222,7 +222,7 @@ export const ProductsShowcaseSection = () => {
             {/* Header: "Select Services" as requested */}
             <div className="flex items-center justify-between text-xs font-mono uppercase tracking-wider text-neutral-400 px-1">
               <span>Select Services</span>
-              <span className="text-[10px] text-emerald-400 font-semibold">3 SPECIALIZED LABS</span>
+              <span className="text-[10px] text-[#CF500A] font-semibold">3 SPECIALIZED LABS</span>
             </div>
 
             {/* 3 Clean Categories */}
@@ -247,26 +247,26 @@ export const ProductsShowcaseSection = () => {
                     style={{
                       // Highlight active category with specific green border as requested
                       borderLeftWidth: '5px',
-                      borderLeftColor: isActive ? '#10B981' : 'transparent'
+                      borderLeftColor: isActive ? '#CF500A' : 'transparent'
                     }}
                   >
                     {/* Active category subtle glow background */}
                     {isActive && (
-                      <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 via-transparent to-transparent pointer-events-none" />
+                      <div className="absolute inset-0 bg-gradient-to-r from-[#CF500A]/10 via-transparent to-transparent pointer-events-none" />
                     )}
 
                     <div className="flex items-center justify-between relative z-10">
                       <div className="flex items-center gap-2.5">
                         <div
                           className={`w-9 h-9 rounded-xl flex items-center justify-center transition-colors ${isActive
-                            ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
+                            ? 'bg-[#CF500A]/15 text-[#CF500A] border border-[#CF500A]/30'
                             : 'bg-neutral-900 text-neutral-400 border border-neutral-800 group-hover:text-white'
                             }`}
                         >
                           <IconComponent className="w-4 h-4" />
                         </div>
                         <div>
-                          <h4 className="text-base font-bold text-white group-hover:text-emerald-400 transition-colors">
+                          <h4 className="text-base font-bold text-white group-hover:text-[#CF500A] transition-colors">
                             {service.name}
                           </h4>
                           <span className="text-[10px] font-mono text-neutral-400">
@@ -277,8 +277,8 @@ export const ProductsShowcaseSection = () => {
 
                       {/* Active indicator dot */}
                       {isActive ? (
-                        <span className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                        <span className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-[#CF500A]/15 text-[#CF500A] border border-[#CF500A]/30">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#CF500A] animate-pulse" />
                           <span>ACTIVE</span>
                         </span>
                       ) : (
@@ -293,7 +293,7 @@ export const ProductsShowcaseSection = () => {
                     {/* Footer micro info */}
                     <div className="mt-4 pt-3 border-t border-neutral-800/80 flex items-center justify-between text-[11px] font-mono text-neutral-400 relative z-10">
                       <span className="text-neutral-300">{service.description.split(',')[0]}</span>
-                      <span className="text-emerald-400 font-semibold">Ready to Preview</span>
+                      <span className="text-[#CF500A] font-semibold">Ready to Preview</span>
                     </div>
                   </div>
                 );
@@ -336,8 +336,8 @@ export const ProductsShowcaseSection = () => {
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <span className="text-[10px] font-mono px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  <span className="text-[10px] font-mono px-2.5 py-0.5 rounded bg-[#CF500A]/10 text-[#CF500A] border border-[#CF500A]/20 flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#CF500A] animate-pulse" />
                     <span>SYSTEM HEALTH: 100%</span>
                   </span>
                 </div>
@@ -351,13 +351,13 @@ export const ProductsShowcaseSection = () => {
                 {/* Full-width Fake Address Bar */}
                 <div className="w-full flex items-center gap-2 bg-neutral-900/90 rounded-xl px-3 py-1.5 border border-neutral-800 text-xs font-mono shadow-inner overflow-hidden">
                   <div className="flex items-center gap-1.5 text-neutral-400 shrink-0">
-                    <Lock className="w-3.5 h-3.5 text-emerald-400" />
+                    <Lock className="w-3.5 h-3.5 text-[#CF500A]" />
                     <button
                       onClick={handleManualReload}
                       title="Reload simulated instance"
                       className="p-1 rounded hover:bg-neutral-800 text-neutral-400 hover:text-white transition-colors cursor-pointer"
                     >
-                      <RotateCw className={`w-3 h-3 ${isLoading ? 'animate-spin text-emerald-400' : ''}`} />
+                      <RotateCw className={`w-3 h-3 ${isLoading ? 'animate-spin text-[#CF500A]' : ''}`} />
                     </button>
                   </div>
 
@@ -373,7 +373,7 @@ export const ProductsShowcaseSection = () => {
                     className="p-1 rounded hover:bg-neutral-800 text-neutral-400 hover:text-white transition-colors shrink-0 cursor-pointer"
                   >
                     {copiedUrl ? (
-                      <Check className="w-3.5 h-3.5 text-emerald-400" />
+                      <Check className="w-3.5 h-3.5 text-[#CF500A]" />
                     ) : (
                       <Copy className="w-3.5 h-3.5" />
                     )}
@@ -395,7 +395,7 @@ export const ProductsShowcaseSection = () => {
                         onClick={handleBackToSaasGrid}
                         className="inline-flex items-center gap-2 text-xs font-mono text-neutral-400 hover:text-white transition-colors cursor-pointer group shrink-0"
                       >
-                        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform text-emerald-400" />
+                        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform text-[#CF500A]" />
                         <span>Back to All SaaS Products</span>
                       </button>
 
@@ -404,33 +404,30 @@ export const ProductsShowcaseSection = () => {
                         <button
                           onClick={() => setViewportMode('desktop')}
                           title="Desktop View"
-                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${
-                            viewportMode === 'desktop'
+                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${viewportMode === 'desktop'
                               ? 'bg-neutral-800 text-white font-semibold border border-neutral-700 shadow-sm'
                               : 'text-neutral-400 hover:text-white'
-                          }`}
+                            }`}
                         >
                           <Monitor className="w-3.5 h-3.5" />
                         </button>
                         <button
                           onClick={() => setViewportMode('tablet')}
                           title="Tablet View"
-                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${
-                            viewportMode === 'tablet'
+                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${viewportMode === 'tablet'
                               ? 'bg-neutral-800 text-white font-semibold border border-neutral-700 shadow-sm'
                               : 'text-neutral-400 hover:text-white'
-                          }`}
+                            }`}
                         >
                           <Tablet className="w-3.5 h-3.5" />
                         </button>
                         <button
                           onClick={() => setViewportMode('mobile')}
                           title="Mobile View"
-                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${
-                            viewportMode === 'mobile'
+                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${viewportMode === 'mobile'
                               ? 'bg-neutral-800 text-white font-semibold border border-neutral-700 shadow-sm'
                               : 'text-neutral-400 hover:text-white'
-                          }`}
+                            }`}
                         >
                           <Smartphone className="w-3.5 h-3.5" />
                         </button>
@@ -443,7 +440,7 @@ export const ProductsShowcaseSection = () => {
                             href={selectedSaasProduct.liveUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="px-3 py-1.5 rounded-lg text-xs font-mono bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-400 border border-emerald-500/30 flex items-center gap-1.5 transition-colors cursor-pointer"
+                            className="px-3 py-1.5 rounded-lg text-xs font-mono bg-[#CF500A]/15 hover:bg-[#CF500A]/25 text-[#CF500A] border border-[#CF500A]/30 flex items-center gap-1.5 transition-colors cursor-pointer"
                           >
                             <span>Live Site</span>
                             <ExternalLink className="w-3 h-3" />
@@ -452,31 +449,28 @@ export const ProductsShowcaseSection = () => {
                           <>
                             <button
                               onClick={() => handleSaasSubViewChange('landing')}
-                              className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
-                                saasSubView === 'landing'
+                              className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${saasSubView === 'landing'
                                   ? 'bg-neutral-800 text-white font-semibold shadow-sm'
                                   : 'text-neutral-400 hover:text-white'
-                              }`}
+                                }`}
                             >
                               Landing Page
                             </button>
                             <button
                               onClick={() => handleSaasSubViewChange('admin')}
-                              className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
-                                saasSubView === 'admin'
+                              className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${saasSubView === 'admin'
                                   ? 'bg-neutral-800 text-white font-semibold shadow-sm'
                                   : 'text-neutral-400 hover:text-white'
-                              }`}
+                                }`}
                             >
                               Admin Dashboard
                             </button>
                             <button
                               onClick={() => handleSaasSubViewChange('user')}
-                              className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${
-                                saasSubView === 'user'
+                              className={`px-3 py-1.5 rounded-lg transition-colors cursor-pointer ${saasSubView === 'user'
                                   ? 'bg-neutral-800 text-white font-semibold shadow-sm'
                                   : 'text-neutral-400 hover:text-white'
-                              }`}
+                                }`}
                             >
                               User Dashboard
                             </button>
@@ -494,7 +488,7 @@ export const ProductsShowcaseSection = () => {
                         onClick={handleBackToWebGrid}
                         className="inline-flex items-center gap-2 text-xs font-mono text-neutral-400 hover:text-white transition-colors cursor-pointer group shrink-0"
                       >
-                        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform text-emerald-400" />
+                        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform text-[#CF500A]" />
                         <span>Back to All Web Projects</span>
                       </button>
 
@@ -503,33 +497,30 @@ export const ProductsShowcaseSection = () => {
                         <button
                           onClick={() => setViewportMode('desktop')}
                           title="Desktop View"
-                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${
-                            viewportMode === 'desktop'
+                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${viewportMode === 'desktop'
                               ? 'bg-neutral-800 text-white font-semibold border border-neutral-700 shadow-sm'
                               : 'text-neutral-400 hover:text-white'
-                          }`}
+                            }`}
                         >
                           <Monitor className="w-3.5 h-3.5" />
                         </button>
                         <button
                           onClick={() => setViewportMode('tablet')}
                           title="Tablet View"
-                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${
-                            viewportMode === 'tablet'
+                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${viewportMode === 'tablet'
                               ? 'bg-neutral-800 text-white font-semibold border border-neutral-700 shadow-sm'
                               : 'text-neutral-400 hover:text-white'
-                          }`}
+                            }`}
                         >
                           <Tablet className="w-3.5 h-3.5" />
                         </button>
                         <button
                           onClick={() => setViewportMode('mobile')}
                           title="Mobile View"
-                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${
-                            viewportMode === 'mobile'
+                          className={`p-1.5 rounded-lg text-xs transition-all cursor-pointer ${viewportMode === 'mobile'
                               ? 'bg-neutral-800 text-white font-semibold border border-neutral-700 shadow-sm'
                               : 'text-neutral-400 hover:text-white'
-                          }`}
+                            }`}
                         >
                           <Smartphone className="w-3.5 h-3.5" />
                         </button>
@@ -545,7 +536,7 @@ export const ProductsShowcaseSection = () => {
                             href={selectedWebProject.liveUrl || selectedWebProject.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="px-2.5 py-1 rounded-lg text-[11px] font-mono bg-neutral-800 hover:bg-neutral-700 text-emerald-400 hover:text-emerald-300 flex items-center gap-1 border border-neutral-700/60 transition-colors shadow-sm"
+                            className="px-2.5 py-1 rounded-lg text-[11px] font-mono bg-neutral-800 hover:bg-neutral-700 text-[#CF500A] hover:text-[#e0651d] flex items-center gap-1 border border-neutral-700/60 transition-colors shadow-sm"
                           >
                             <span>Live Site</span>
                             <ExternalLink className="w-3 h-3" />
@@ -562,14 +553,14 @@ export const ProductsShowcaseSection = () => {
                         onClick={handleBackToMobileGrid}
                         className="inline-flex items-center gap-2 text-xs font-mono text-neutral-400 hover:text-white transition-colors cursor-pointer group"
                       >
-                        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform text-emerald-400" />
+                        <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform text-[#CF500A]" />
                         <span>Back to All Mobile Apps</span>
                       </button>
 
                       <div className="flex items-center gap-2 text-xs font-mono text-neutral-400">
                         <span className="text-white font-bold">{selectedMobileApp.name}</span>
                         <span>·</span>
-                        <span className="text-emerald-400">Interactive Phone Runtime</span>
+                        <span className="text-[#CF500A]">Interactive Phone Runtime</span>
                       </div>
                     </div>
                   )}
@@ -580,11 +571,10 @@ export const ProductsShowcaseSection = () => {
                   Content display (No outer scrollbar in preview mode!)
                   ------------------------------------------------------------- */}
               <div
-                className={`flex-1 min-h-0 bg-neutral-900/50 ${
-                  isPreview
+                className={`flex-1 min-h-0 bg-neutral-900/50 ${isPreview
                     ? 'overflow-hidden p-3 sm:p-4 flex flex-col items-center justify-center'
                     : 'overflow-y-auto custom-scrollbar p-4 sm:p-5'
-                }`}
+                  }`}
               >
                 <AnimatePresence mode="wait">
                   {/* MICRO-INTERACTION: SKELETON LOADER STATE */}
@@ -632,13 +622,12 @@ export const ProductsShowcaseSection = () => {
                                 />
                               ) : (
                                 <div
-                                  className={`transition-all duration-300 h-full w-full flex flex-col items-center justify-start ${
-                                    viewportMode === 'mobile'
+                                  className={`transition-all duration-300 h-full w-full flex flex-col items-center justify-start ${viewportMode === 'mobile'
                                       ? 'max-w-[360px] mx-auto rounded-[32px] border-4 border-neutral-700/90 p-2.5 bg-neutral-950 shadow-2xl overflow-y-auto custom-scrollbar'
                                       : viewportMode === 'tablet'
                                         ? 'max-w-[640px] mx-auto rounded-2xl border-2 border-neutral-700/80 p-3.5 bg-neutral-950 shadow-xl overflow-y-auto custom-scrollbar'
                                         : 'w-full rounded-xl border border-neutral-800/80 p-4 bg-neutral-950/70 overflow-y-auto custom-scrollbar'
-                                  }`}
+                                    }`}
                                 >
                                   <div className="w-full">
                                     {saasSubView === 'landing' && (
@@ -685,13 +674,12 @@ export const ProductsShowcaseSection = () => {
                                 />
                               ) : (
                                 <div
-                                  className={`transition-all duration-300 h-full w-full flex flex-col items-center justify-start ${
-                                    viewportMode === 'mobile'
+                                  className={`transition-all duration-300 h-full w-full flex flex-col items-center justify-start ${viewportMode === 'mobile'
                                       ? 'max-w-[360px] mx-auto rounded-[32px] border-4 border-neutral-700/90 p-2.5 bg-neutral-950 shadow-2xl overflow-y-auto custom-scrollbar'
                                       : viewportMode === 'tablet'
                                         ? 'max-w-[640px] mx-auto rounded-2xl border-2 border-neutral-700/80 p-3.5 bg-neutral-950 shadow-xl overflow-y-auto custom-scrollbar'
                                         : 'w-full rounded-xl border border-neutral-800/80 p-4 bg-neutral-950/70 overflow-y-auto custom-scrollbar'
-                                  }`}
+                                    }`}
                                 >
                                   <div className="w-full">
                                     <WebDetailContent
